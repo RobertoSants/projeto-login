@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* Paleta de cores
-   Verde: #49a09d
+   azul-escuro: #171925
    Lilás: #5f2c82
  */
 
@@ -36,6 +36,9 @@
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
  }
 
  section#login > div#imagem {
